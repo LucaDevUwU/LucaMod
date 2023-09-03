@@ -27,7 +27,6 @@ class LucaMod {
 
     @SubscribeEvent
     fun onServerStarting(event: ServerStartingEvent?) {
-        // Do something when the server starts
         LOGGER.info("HELLO from server starting")
     }
 
